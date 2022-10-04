@@ -1,0 +1,129 @@
+[debug] [2022-05-25T16:02:25.603Z] ----------------------------------------------------------------------
+[debug] [2022-05-25T16:02:25.607Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-25T16:02:25.608Z] CLI Version:   11.0.1
+[debug] [2022-05-25T16:02:25.608Z] Platform:      win32
+[debug] [2022-05-25T16:02:25.608Z] Node Version:  v16.15.0
+[debug] [2022-05-25T16:02:25.609Z] Time:          Wed May 25 2022 21:32:25 GMT+0530 (India Standard Time)
+[debug] [2022-05-25T16:02:25.609Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-25T16:02:25.719Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-25T16:02:25.720Z] > authorizing via signed-in user (ksayantan1821@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Workspace\Portfolio3.0
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-25T16:02:40.616Z] Using project from CLI flag: sayantan-k
+[debug] [2022-05-25T16:02:40.619Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sayantan-k [none]
+[debug] [2022-05-25T16:02:41.477Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sayantan-k 403
+[debug] [2022-05-25T16:02:41.477Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sayantan-k {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-25T16:02:41.477Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-25T16:02:41.747Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project sayantan-k. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-25T16:03:31.310Z] ----------------------------------------------------------------------
+[debug] [2022-05-25T16:03:31.313Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-25T16:03:31.315Z] CLI Version:   11.0.1
+[debug] [2022-05-25T16:03:31.315Z] Platform:      win32
+[debug] [2022-05-25T16:03:31.315Z] Node Version:  v16.15.0
+[debug] [2022-05-25T16:03:31.316Z] Time:          Wed May 25 2022 21:33:31 GMT+0530 (India Standard Time)
+[debug] [2022-05-25T16:03:31.316Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-25T16:03:31.423Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-25T16:03:31.424Z] > authorizing via signed-in user (ksayantan1821@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Workspace\Portfolio3.0
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-25T16:04:49.600Z] Using project from CLI flag: sayantan-k
+[debug] [2022-05-25T16:04:49.603Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sayantan-k [none]
+[debug] [2022-05-25T16:04:50.469Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sayantan-k 403
+[debug] [2022-05-25T16:04:50.469Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sayantan-k {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-25T16:04:50.470Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-25T16:04:50.760Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project sayantan-k. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-25T16:05:19.311Z] ----------------------------------------------------------------------
+[debug] [2022-05-25T16:05:19.314Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-25T16:05:19.315Z] CLI Version:   11.0.1
+[debug] [2022-05-25T16:05:19.315Z] Platform:      win32
+[debug] [2022-05-25T16:05:19.315Z] Node Version:  v16.15.0
+[debug] [2022-05-25T16:05:19.316Z] Time:          Wed May 25 2022 21:35:19 GMT+0530 (India Standard Time)
+[debug] [2022-05-25T16:05:19.316Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-25T16:05:19.423Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-25T16:05:19.424Z] > authorizing via signed-in user (ksayantan1821@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Workspace\Portfolio3.0
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-25T16:05:32.577Z] Using project from CLI flag: sayantan-k
+[debug] [2022-05-25T16:05:32.580Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sayantan-k [none]
+[debug] [2022-05-25T16:05:33.164Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sayantan-k 403
+[debug] [2022-05-25T16:05:33.164Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sayantan-k {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-25T16:05:33.165Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-25T16:05:33.445Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project sayantan-k. Please make sure the project exists and your account has permission to access it.
