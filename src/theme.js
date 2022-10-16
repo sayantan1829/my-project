@@ -32,5 +32,26 @@ const darkTheme = {
   avatarMisc: "#212121",
   avatarShoes: "#2B2B2B",
 };
+ fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "C",
+          fontAwesomeClassname: "simple-icons:c",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Python",
 
 export const themes = { light: lightTheme, dark: darkTheme };
