@@ -89,6 +89,31 @@ function registerValidSW(swUrl, config) {
                 config.onSuccess(registration);
               }
             }
+            /* Change this file to get your personal Porfolio */
+
+// Website related settings
+const settings = {
+  isSplash: true, // Change this to true if you want to use the splash screen.
+  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  googleTrackingID: "UA-174238252-2",
+};
+
+//Home Page
+const greeting = {
+  title: "Hello 👋.",
+  title2: "Sayantan",
+  logo_name: "<Sayantan />",
+  nickname: "Sayantan",
+  full_name: "Sayantan Kapat",
+  subTitle:
+    "Full Stack Developer, ML engineer 🔥. Always learning.",
+  resumeLink:
+    "https://drive.google.com/file/d/1aMQIlF_447KAMCwimdwL6bYvdjDkeIGU/view?usp=sharing",
+  mail: "mailto:ksayantan1821@gmail.com",
+};
+
+const socialMediaLinks = {
+  /* Your Social Media Link */
           }
         };
       };
